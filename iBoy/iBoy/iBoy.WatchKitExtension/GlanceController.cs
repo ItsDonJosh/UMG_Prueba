@@ -16,7 +16,7 @@ namespace iBoy.WatchKitExtension
             base.Awake(context);
 
             // Configure interface objects here.
-            Console.WriteLine("{0} awake with context", this);
+            Console.WriteLine("{0}Hola, bienvenido", this);
         }
 
         public override void WillActivate()
