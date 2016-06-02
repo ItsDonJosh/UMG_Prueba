@@ -53,7 +53,7 @@
             // lblTexto
             // 
             this.lblTexto.AutoSize = true;
-            this.lblTexto.Location = new System.Drawing.Point(136, 103);
+            this.lblTexto.Location = new System.Drawing.Point(134, 81);
             this.lblTexto.Name = "lblTexto";
             this.lblTexto.Size = new System.Drawing.Size(10, 13);
             this.lblTexto.TabIndex = 2;
