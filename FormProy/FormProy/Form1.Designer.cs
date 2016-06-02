@@ -29,32 +29,57 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.txtTexto = new System.Windows.Forms.TextBox();
+            this.lblTexto = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(103, 116);
+            this.button1.Location = new System.Drawing.Point(108, 177);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Enviar";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // txtTexto
+            // 
+            this.txtTexto.Location = new System.Drawing.Point(83, 12);
+            this.txtTexto.Multiline = true;
+            this.txtTexto.Name = "txtTexto";
+            this.txtTexto.Size = new System.Drawing.Size(128, 20);
+            this.txtTexto.TabIndex = 1;
+            // 
+            // lblTexto
+            // 
+            this.lblTexto.AutoSize = true;
+            this.lblTexto.Location = new System.Drawing.Point(136, 103);
+            this.lblTexto.Name = "lblTexto";
+            this.lblTexto.Size = new System.Drawing.Size(10, 13);
+            this.lblTexto.TabIndex = 2;
+            this.lblTexto.Text = ".";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblTexto);
+            this.Controls.Add(this.txtTexto);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtTexto;
+        private System.Windows.Forms.Label lblTexto;
     }
 }
 
