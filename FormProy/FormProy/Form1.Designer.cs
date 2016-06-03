@@ -35,7 +35,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(108, 177);
+            this.button1.Location = new System.Drawing.Point(104, 174);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -44,10 +44,10 @@
             // 
             // txtTexto
             // 
-            this.txtTexto.Location = new System.Drawing.Point(83, 12);
+            this.txtTexto.Location = new System.Drawing.Point(54, 12);
             this.txtTexto.Multiline = true;
             this.txtTexto.Name = "txtTexto";
-            this.txtTexto.Size = new System.Drawing.Size(128, 20);
+            this.txtTexto.Size = new System.Drawing.Size(181, 20);
             this.txtTexto.TabIndex = 1;
             // 
             // lblTexto
