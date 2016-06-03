@@ -21,5 +21,28 @@ namespace FormProy
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblTexto.Text = txtTexto.Text;
+            btnBorrar.Enabled = true;
+        }
+
+        private void txtTexto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTexto_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            lblTexto.Text = "";
+            txtTexto.Text = "";
+            btnBorrar.Enabled = false;
+        }
     }
 }
