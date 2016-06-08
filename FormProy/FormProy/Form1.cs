@@ -19,7 +19,7 @@ namespace FormProy
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            btnBorrar.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,7 +35,7 @@ namespace FormProy
 
         private void lblTexto_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
