@@ -49,7 +49,7 @@
             this.txtTexto.Location = new System.Drawing.Point(54, 12);
             this.txtTexto.Multiline = true;
             this.txtTexto.Name = "txtTexto";
-            this.txtTexto.Size = new System.Drawing.Size(181, 20);
+            this.txtTexto.Size = new System.Drawing.Size(181, 35);
             this.txtTexto.TabIndex = 1;
             this.txtTexto.TextChanged += new System.EventHandler(this.txtTexto_TextChanged);
             // 
